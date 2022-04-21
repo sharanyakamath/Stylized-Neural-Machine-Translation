@@ -1,0 +1,17 @@
+python3 baseline.py --filename antony-and-cleopatra_original.snt.aligned --outfile antony-and-cleopatra_translated.txt
+python3 baseline.py --filename asyoulikeit_original.snt.aligned --outfile asyoulikeit_translated.txt
+python3 baseline.py --filename errors_original.snt.aligned --outfile errors_translated.txt
+python3 baseline.py --filename hamlet_original.snt.aligned --outfile hamlet_translated.txt
+python3 baseline.py --filename henryv_original.snt.aligned --outfile henryv_translated.txt
+python3 baseline.py --filename juliuscaesar_original.snt.aligned --outfile juliuscaeser_translated.txt
+python3 baseline.py --filename lear_original.snt.aligned --outfile lear_translated.txt
+python3 baseline.py --filename macbeth_original.snt.aligned --outfile macbeth_translated.txt
+python3 baseline.py --filename merchant_original.snt.aligned --outfile merchant_translated.txt
+python3 baseline.py --filename msnd_original.snt.aligned --outfile msnd_translated.txt
+python3 baseline.py --filename muchado_original.snt.aligned --outfile muchado_translated.txt
+python3 baseline.py --filename othello_original.snt.aligned --outfile othello_translated.txt
+python3 baseline.py --filename richardiii_original.snt.aligned --outfile richardiii_translated.txt
+python3 baseline.py --filename romeojuliet_original.snt.aligned --outfile romeojuliet_translated.txt
+python3 baseline.py --filename shrew_original.snt.aligned --outfile shrew_translated.txt
+python3 baseline.py --filename tempest_original.snt.aligned --outfile tempest_translated.txt
+python3 baseline.py --filename twelfthnight_original.snt.aligned --outfile twelfthnight_translated.txt
