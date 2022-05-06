@@ -29,7 +29,21 @@ f = open("t5_translations.tsv", "w")
 
 #print(tokenized_text.shape)
 print(tokenized_text["train"][0])
+i = 0
 for example in tokenized_text["train"]:
+    i += 1
+    print(i)
+    #print("Sh: ", example["inputs"])
+    input_ids = tokenizer.encode(example["inputs"], return_tensors="pt")
+    output = model.generate(input_ids, max_length=50)
+    t5_translated = tokenizer.decode(output[0], skip_special_tokens=True)
+    #print("En: ", t5_translated)
+    f.write(example["translation"]["sh"] + "\t" + t5_translated)
+    f.write("\n")
+
+for example in tokenized_text["test"]:
+    i += 1
+    print(i)
     #print("Sh: ", example["inputs"])
     input_ids = tokenizer.encode(example["inputs"], return_tensors="pt")
     output = model.generate(input_ids, max_length=50)
