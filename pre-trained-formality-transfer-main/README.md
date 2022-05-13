@@ -17,3 +17,6 @@ transformers==2.5.1
 run.ipynb
 ```
 
+## Model Checkpoint
+### [Drive Link](https://drive.google.com/file/d/14YeftkVAsmHleQ05ooZR_a-gMKPYUyDy/view?usp=sharing)
+
