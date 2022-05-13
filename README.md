@@ -4,8 +4,8 @@ In this project, we are interested in neural machine translation of text followe
 
 In this project we have trained 5 models
 
-> Baseline
-> translator
-> pre-trained-formality-transfer-main
-> augmented-data-translator
-> StylizedNMT
+1. Baseline
+2. translator
+3. pre-trained-formality-transfer-main
+4. augmented-data-translator
+5. StylizedNMT
