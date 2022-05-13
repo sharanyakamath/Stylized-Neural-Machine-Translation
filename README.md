@@ -10,4 +10,6 @@ In this project we have trained 5 models
 4. augmented-data-translator
 5. StylizedNMT
 
-Individual README is under each folder
+Individual README is under each folder.
+
+Complete translation dataset present in : https://docs.google.com/spreadsheets/u/1/d/1F_wnhke4Ebaa_fz0q3cRwDCPcSS8sDCBjB-tEM4tyvU/edit#gid=0
