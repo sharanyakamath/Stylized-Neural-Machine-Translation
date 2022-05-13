@@ -9,3 +9,5 @@ In this project we have trained 5 models
 3. pre-trained-formality-transfer-main
 4. augmented-data-translator
 5. StylizedNMT
+
+Individual README is under each folder
